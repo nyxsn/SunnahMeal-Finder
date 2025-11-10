@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sunnah Meal Finder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="header-left">
+            <h1>Sunnah Meal Finder</h1>
+        </div>
+
+        <div class="header-right">
+            <input type="text" id="ingredientInput" placeholder="Enter Sunnah Ingredient">
+            <button id="searchBtn">Search</button>
+        </div>
+    </header>
+
+    <nav class="sub-nav">
+        <a href="index.html">Home</a>
+        <a href="mealplan.html">My Meal Plan</a>
+    </nav>
+
+    <main>
+        <!--recommended meals-->
+        <section id="recommended-section">
+            <h2 style="text-align:center; margin-top:20px;">Recommended meals for you !</h2>
+            <div id="recommendedList" class="grid"></div>
+        </section>
+    </main>
+    
+    <script src="substitutes.js"></script>
+    <script src="recommend.js"></script>
+</body>
+</html>
